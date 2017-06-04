@@ -1,11 +1,10 @@
-
 public class Velocity {
 	private static double velocity;
 	private static double distance;
-	private double seconds;
+	private static double seconds;
 	
 	Velocity(double seconds) { ;
-		this.seconds = seconds; 
+		Velocity.seconds = seconds; 
 	}
 	
 	public static double getVelocity (double seconds){
